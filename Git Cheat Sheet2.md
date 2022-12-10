@@ -1,27 +1,34 @@
 Configuration
-=============
+-------------
+1. git config 확인하기
+2. git config -l
+3. git config --global -l
+4. git config 수정하기
+5. git config --global --edit
 
-git config 확인하기
-git config -l
-git config --global -l
-git config 수정하기
-git config --global --edit
 사용자명/이메일 설정하기
-git config --global user.name "USER NAME"
-git config --global user.email "USER EMAIL"
-file permission 무시하기
-리눅스는 chmod 로 퍼미션을 주는 게 git 에서 무시하게 설정한다
+-------------
+1. git config --global user.name "USER NAME"
+2. git config --global user.email "USER EMAIL"
+3. file permission 무시하기
+4. 리눅스는 chmod 로 퍼미션을 주는 게 git 에서 무시하게 설정한다
 
 git config core.fileMode false
+-------------
+
 Login credentials 캐쉬 설정
-git config --global credential.helper cache
+-------------
+14. git config --global credential.helper cache
+
 Repository
-repository 생성
-개발 folder 에서 init 하면 .git 폴더가 생기면서 git 이 설정됩니다
+-------------
+1. repository 생성
+2. 개발 folder 에서 init 하면 .git 폴더가 생기면서 git 이 설정됩니다
 
 git init
-git init PROJECT_NAME
-staging area 로 파일 추가
+-------------
+1. git init PROJECT_NAME
+2. staging area 로 파일 추가
 ## 변경된 전체 파일 추가
 git add .
 
